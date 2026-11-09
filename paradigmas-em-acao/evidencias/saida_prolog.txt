@@ -1,0 +1,20 @@
+Consulta 1: ?- vaga_livre(V).
+  Vagas livres: [3,5]
+
+Consulta 2: ?- vaga_compativel(mno7p89, V).
+  mno7p89 (carro) pode usar a vaga 3
+
+Consulta 3: ?- valor_a_pagar(abc1d23, V).
+  abc1d23 (carro, 130 min) paga R$ 18
+
+Consulta 4: ?- valor_a_pagar(bra2e19, V).
+  bra2e19 (mensalista, 200 min) paga R$ 0
+
+Consulta 5: ?- deve_pagar(P).
+  Devem pagar: [abc1d23,xyz9k88,qwe4r56]
+
+Consulta 6: ?- sem_vaga_para(caminhonete).
+  true: nao ha vaga grande livre
+
+Consulta 7: ?- faturamento_previsto(T).
+  Total previsto: R$ 48

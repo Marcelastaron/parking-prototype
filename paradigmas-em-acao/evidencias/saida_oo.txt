@@ -1,0 +1,24 @@
+=== 1) Polimorfismo: mesma chamada, comportamentos diferentes ===
+Carro ABC1D23              tarifa/h=R$  6.00  vaga=COMUM  valor(130 min)=R$  18.00
+Moto XYZ9K88               tarifa/h=R$  3.00  vaga=MOTO   valor(130 min)=R$   9.00
+Caminhonete QWE4R56        tarifa/h=R$  9.00  vaga=GRANDE valor(130 min)=R$  27.00
+
+=== 2) Entradas ===
+Ticket #1 Carro ABC1D23 vaga 1  entrada 08:00
+Ticket #2 Carro BRA2E19 (mensalista) vaga 2  entrada 08:10
+Ticket #3 Moto XYZ9K88 vaga 4  entrada 08:30
+Ticket #4 Caminhonete QWE4R56 vaga 6  entrada 08:40
+Vagas livres: 2 de 6 (COMUM=1, MOTO=1, GRANDE=0)
+
+=== 3) Regras de negócio (erros tratados) ===
+Recusado: Não há vaga GRANDE livre
+Recusado: ABC1D23 já está no estacionamento
+
+=== 4) Saídas e cobrança ===
+Carro ABC1D23                permanência 130 min -> R$  18.00
+Carro BRA2E19 (mensalista)   permanência 200 min -> R$   0.00
+Moto XYZ9K88                 permanência  45 min -> R$   3.00
+Caminhonete QWE4R56          permanência 125 min -> R$  27.00
+
+Faturamento total: R$ 48.00
+Vagas livres ao final: 6 de 6

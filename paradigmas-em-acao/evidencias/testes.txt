@@ -1,0 +1,29 @@
+test_entrada_publica_evento (tests.test_eventos.TestEventos.test_entrada_publica_evento) ... ok
+test_lotacao_alta (tests.test_eventos.TestEventos.test_lotacao_alta) ... ok
+test_saida_publica_evento_com_ticket (tests.test_eventos.TestEventos.test_saida_publica_evento_com_ticket) ... ok
+test_vagas_esgotadas (tests.test_eventos.TestEventos.test_vagas_esgotadas) ... ok
+test_equivalencia_com_versao_oo (tests.test_funcional.TestFuncional.test_equivalencia_com_versao_oo)
+A regra de preço funcional deve coincidir com a da hierarquia OO. ... ok
+test_faturamento_funcional_igual_imperativo (tests.test_funcional.TestFuncional.test_faturamento_funcional_igual_imperativo) ... ok
+test_imutabilidade (tests.test_funcional.TestFuncional.test_imutabilidade) ... ok
+test_partial (tests.test_funcional.TestFuncional.test_partial) ... ok
+test_pureza_mesma_entrada_mesma_saida (tests.test_funcional.TestFuncional.test_pureza_mesma_entrada_mesma_saida) ... ok
+test_recursao (tests.test_funcional.TestFuncional.test_recursao) ... ok
+test_tabela_entradas_saidas (tests.test_funcional.TestFuncional.test_tabela_entradas_saidas) ... ok
+test_fluxo_entrada_saida (tests.test_oo.TestEstacionamento.test_fluxo_entrada_saida) ... ok
+test_saida_antes_da_entrada (tests.test_oo.TestEstacionamento.test_saida_antes_da_entrada) ... ok
+test_saida_inexistente (tests.test_oo.TestEstacionamento.test_saida_inexistente) ... ok
+test_sem_vaga (tests.test_oo.TestEstacionamento.test_sem_vaga) ... ok
+test_vaga_correta_por_tipo (tests.test_oo.TestEstacionamento.test_vaga_correta_por_tipo) ... ok
+test_veiculo_duplicado (tests.test_oo.TestEstacionamento.test_veiculo_duplicado) ... ok
+test_classe_abstrata_nao_instancia (tests.test_oo.TestVeiculos.test_classe_abstrata_nao_instancia) ... ok
+test_encapsulamento_placa_somente_leitura (tests.test_oo.TestVeiculos.test_encapsulamento_placa_somente_leitura) ... ok
+test_mensalista_nao_paga (tests.test_oo.TestVeiculos.test_mensalista_nao_paga) ... ok
+test_placa_invalida (tests.test_oo.TestVeiculos.test_placa_invalida) ... ok
+test_polimorfismo_tarifas (tests.test_oo.TestVeiculos.test_polimorfismo_tarifas) ... ok
+test_tolerancia_e_hora_iniciada (tests.test_oo.TestVeiculos.test_tolerancia_e_hora_iniciada) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.002s
+
+OK

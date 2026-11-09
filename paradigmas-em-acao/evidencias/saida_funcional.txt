@@ -1,0 +1,27 @@
+=== 1) Função pura: valor_a_pagar(tipo, minutos, mensalista) ===
+valor_a_pagar('CARRO', 10, False) = 0.00
+valor_a_pagar('CARRO', 15, False) = 0.00
+valor_a_pagar('CARRO', 16, False) = 6.00
+valor_a_pagar('CARRO', 60, False) = 6.00
+valor_a_pagar('CARRO', 61, False) = 12.00
+valor_a_pagar('MOTO', 130, False) = 9.00
+valor_a_pagar('CAMINHONETE', 125, False) = 27.00
+valor_a_pagar('CARRO', 200, True) = 0.00
+
+=== 2) Imutabilidade: fechar_ticket devolve um NOVO ticket ===
+original: saida=None
+novo    : saida=10:10  valor=R$ 18.00
+
+=== 3) Alta ordem: map / filter / reduce / partial ===
+valores (map)            : (18.0, 0.0, 3.0, 27.0)
+só carros (filter)       : ['ABC1D23', 'BRA2E19']
+faturamento (reduce)     : R$ 48.00
+por tipo                 : {'CARRO': 18.0, 'MOTO': 3.0, 'CAMINHONETE': 27.0}
+valor_carro(130) partial : R$ 18.00
+
+=== 4) Recursividade ===
+somar_recursivo(18.0, 0.0, 3.0, 27.0) = 48.00
+
+=== 5) Equivalência com a versão imperativa ===
+funcional  : R$ 48.00
+imperativo : R$ 48.00

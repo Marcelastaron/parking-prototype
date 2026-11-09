@@ -1,0 +1,20 @@
+=== Entradas ===
+[PAINEL] 08:00 entrou  Carro ABC1D23 -> vaga 1
+[PAINEL] 08:10 entrou  Carro BRA2E19 (mensalista) -> vaga 2
+[PAINEL] 08:20 entrou  Carro DEF2G34 -> vaga 3
+[PAINEL] 08:30 entrou  Moto XYZ9K88 -> vaga 4
+[PAINEL] 08:35 entrou  Moto JKL3M45 -> vaga 5
+[ALERTA] Lotação em 83%
+[PAINEL] 08:40 entrou  Caminhonete QWE4R56 -> vaga 6
+[ALERTA] Lotação em 100%
+[ALERTA] Sem vaga COMUM para Carro MNO7P89
+
+=== Saídas ===
+[PAINEL] 09:15 saiu    Moto XYZ9K88 (45 min)
+[CAIXA ] cobrado R$   3.00 de XYZ9K88 | acumulado R$ 3.00
+[PAINEL] 10:10 saiu    Carro ABC1D23 (130 min)
+[CAIXA ] cobrado R$  18.00 de ABC1D23 | acumulado R$ 21.00
+[PAINEL] 11:30 saiu    Carro BRA2E19 (mensalista) (200 min)
+[CAIXA ] cobrado R$   0.00 de BRA2E19 | acumulado R$ 21.00
+
+Total arrecadado pelo ouvinte de contabilidade: R$ 21.00
